@@ -19,17 +19,18 @@
 <body>
     
 <?php
-    include_once("templates/cabecera.php"); 
+    include_once("templates/cabecera.html"); 
+    
 
 ?>
 
 <div class="container">
     <div class="div1">
         
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Mis alimentos</li>
-            <li class="list-group-item">Mis recetas</li>
-            <li class="list-group-item">Mis estadisticas</li>
+        <ul class="list-group list-group-flush mt-5">
+            <li class="list-group-item fs-2"><a href="webs/add_product.php">Mis alimentos</a></li>
+            <li class="list-group-item fs-2"><a href="#">Mis recetas</a></li>
+            <li class="list-group-item fs-2"><a href="#">Mis estadisticas</a></li> 
         </ul>
     
     </div>
@@ -60,7 +61,7 @@
 </div> -->
 
 <?php
-    include_once("templates/footer.php");
+    include_once("templates/footer.html");
 
 ?>
 </body>
