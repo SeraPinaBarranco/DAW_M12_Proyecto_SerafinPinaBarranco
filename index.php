@@ -1,3 +1,7 @@
+<?php
+    $s = "Hola";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
