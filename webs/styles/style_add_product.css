@@ -1,3 +1,17 @@
+
+
+
+a{
+    text-decoration: none;
+}
+.header{   
+    background-color: #ffab9cff;
+}
+
+.color-navbar{
+    color: black;
+}
+
 .footer{
     position: absolute; 
     bottom: 0;
@@ -25,3 +39,6 @@
     width: 32px;
     height: 32px;
 }
+
+
+

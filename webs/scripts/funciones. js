@@ -1,0 +1,4 @@
+function evitarEnvio(event) {
+    event.preventDefault();
+}
+

@@ -7,30 +7,49 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
-    <link rel="stylesheet" href="styles/header.css">
+    <!-- <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/cuerpo.css">
+    <link rel="stylesheet" href="styles/cuerpo.css"> -->
+    <link rel="stylesheet" href="styles/style_add_product.css">
+    <script src="scripts/funciones.js"></script>
 </head>
 <body>
     <?php include_once("templates/cabecera.html"); ?>
 
-    <div class="container">
-        <div class="row">
-            <h2>Añadir producto</h2> 
+
+    
+        
+        <div class="div-form">
+            <div class="fila">
+                <h2>Añadir producto</h2> 
+            </div>
         </div>
-    </div>
+        
     
-    <div class="container">
-        <div class="row">
-            <form action="" class="form-control">
-                <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
-                <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
-                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
-            </form>
+        <div class=" container">
+            <form id="formulario" class="form-control" onsubmit="evitarEnvio(event)">
+                <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Nombre" name="nombre">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Calorias" name="calorias">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Grasas" name="grasas">                    
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Hidratos" name="hidratos">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Proteinas" name="proteinas">
+                </div>
+                <div class="">
+                    <button id="guardar" name="guardar">Guardar</button>
+                </div>
+            </form>    
+       </div>
+      
     
-        </div>        
-   </div>
-  
 
     <?php include_once("templates/footer.html"); ?>
     
