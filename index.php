@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/cuerpo.css">
+    
     <title>Document</title>
 
 </head>
@@ -20,15 +21,13 @@
     
 <?php
     include_once("templates/cabecera.html"); 
-    
-
 ?>
 
 <div class="container">
     <div class="div1">
         
         <ul class="list-group list-group-flush mt-5">
-            <li class="list-group-item fs-2"><a href="webs/add_product.php">Mis alimentos</a></li>
+            <li class="list-group-item fs-2"><a href="add_product.html">Mis alimentos</a></li>
             <li class="list-group-item fs-2"><a href="#">Mis recetas</a></li>
             <li class="list-group-item fs-2"><a href="#">Mis estadisticas</a></li> 
         </ul>
